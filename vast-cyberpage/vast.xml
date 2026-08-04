@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="4.2">
+  <Ad id="vast-cyberpage-1">
+    <InLine>
+      <AdSystem>VAST Generator</AdSystem>
+      <AdTitle>VAST Cyberpage Companion</AdTitle>
+      <Impression><![CDATA[https://example.com/tracking/impression]]></Impression>
+      <Creatives>
+        <Creative id="companion-1" sequence="1">
+          <CompanionAds>
+            <Companion width="300" height="250">
+              <!-- Replace the URL below with the publicly accessible URL to your page -->
+              <IFrameResource><![CDATA[https://example.com/vast-cyberpage/index.html]]></IFrameResource>
+              <CompanionClickThrough><![CDATA[https://example.com/vast-cyberpage/index.html]]></CompanionClickThrough>
+            </Companion>
+
+            <Companion width="728" height="90">
+              <IFrameResource><![CDATA[https://example.com/vast-cyberpage/index.html]]></IFrameResource>
+              <CompanionClickThrough><![CDATA[https://example.com/vast-cyberpage/index.html]]></CompanionClickThrough>
+            </Companion>
+
+            <Companion width="160" height="600">
+              <IFrameResource><![CDATA[https://example.com/vast-cyberpage/index.html]]></IFrameResource>
+              <CompanionClickThrough><![CDATA[https://example.com/vast-cyberpage/index.html]]></CompanionClickThrough>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
